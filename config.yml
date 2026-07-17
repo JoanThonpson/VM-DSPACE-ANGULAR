@@ -1,5 +1,5 @@
 # NOTE: will log all redux actions and transfers in console
-debug: false
+debug: true
 
 # Angular User Inteface settings
 # NOTE: these settings define where Node.js will start your UI application. Therefore, these
@@ -68,7 +68,7 @@ ssr:
 # 'synced' with the 'dspace.server.url' setting in your backend's local.cfg.
 rest:
   ssl: false
-  host: unipiorepo.piodecimo.edu.br #192.168.0.190
+  host: 192.168.0.190 #unipiorepo.piodecimo.edu.br
   port: 8080
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /server

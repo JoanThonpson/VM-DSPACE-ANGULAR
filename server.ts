@@ -243,6 +243,7 @@ function serverSideRender(req, res, next, sendToUser: boolean = true) {
   const { protocol, originalUrl, baseUrl, headers } = req;
   const commonEngine = new CommonEngine({ enablePerformanceProfiler: environment.ssr.enablePerformanceProfiler });
   // Render the page via SSR (server side rendering)
+  //allowedHosts: ['192.168.0.190', 'localhost', '127.0.0.1']
   commonEngine
     .render({
       bootstrap,
