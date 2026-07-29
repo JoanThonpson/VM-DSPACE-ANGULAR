@@ -45,10 +45,10 @@ $font-family-sans-serif: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI"
 //$cyan:    #17a2b8 !default;
 
 // Override semantic colors here
-$primary:   #00884d;  // Gray
-$secondary: #495057;  // As Bootstrap $gray-700
+$primary:   #333;  // Gray
+$secondary: #333;  // As Bootstrap $gray-700
 $success:   #92c642;  // Lime
-$info:      #1e6f90;  // Light blue
+$info:      #92c642;  // Light blue
 $warning:   #ec9433;  // Orange
 $danger:    #cf4444;  // Red
 $light:     #f8f9fa;  // As Bootstrap $gray-100
@@ -64,15 +64,16 @@ $min-contrast-ratio: 2.06 !default;
 
 $body-color: #343a40;       // As Bootstrap $gray-800
 
-$link-color: #1e6f90;       // Blue green, as DSpace $info
+//$link-color: #fff;          // Blue green, as DSpace $info
 $link-decoration: none;
+$link-color-home: #fff;       
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
 
 $table-accent-bg: #f8f9fa;  // As Bootstrap $gray-100
 $table-hover-bg: #ced4da;   // As Bootstrap $gray-400
 
-$navbar-dark-color: #fff;
+$navbar-dark-color: #00884d;  // As DSpace $primary
 
 
 /*** CUSTOM DSPACE VARIABLES ***/
@@ -82,3 +83,86 @@ $ds-header-navbar-border-bottom-color: #92c642;
 
 $ds-breadcrumb-link-color: #154E66 !default;
 $ds-breadcrumb-link-active-color: #040D11 !default;
+
+/////////////////////////////////////////////////////////
+
+
+// Sobrescrevendo as cores do Bootstrap para o Grupo Pio Décimo
+// ======================================================
+// CORES OFICIAIS DO GRUPO PIO DÉCIMO
+// ======================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$font-family-sans-serif: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// ======================================================
+// CORES PRINCIPAIS
+// ======================================================
+
+$primary:   #00884d;   // Verde principal (cabeçalho, botões)
+$secondary: #fe8905;   // Laranja de destaque (bordas, hover)
+$success:   #00884d;   // Verde para sucesso
+$info:      #00884d;   // Verde para links e informações
+$warning:   #fe8905;   // Laranja para avisos
+$danger:    #cf4444;   // Vermelho para erros
+$light:     #f8f9fa;   // Cinza claro
+$dark:      #1a1a1a;   // Escuro para rodapé
+
+// ======================================================
+// TEXTOS E LINKS
+// ======================================================
+
+$body-color: #333;                // Texto principal (preto/cinza escuro)
+$link-color: #ffff;             // Links em verde
+$link-hover-color: #fe8905;       // Links em laranja ao passar o mouse
+
+// ======================================================
+// CABEÇALHO
+// ======================================================
+
+$navbar-dark-color: #00884d;            // Fundo do cabeçalho (verde)
+$navbar-dark-hover-color: #fe8905;      // Links do menu ao passar o mouse (laranja)
+$navbar-dark-active-color: #fe8905;     // Link ativo no menu (laranja)
+
+// ======================================================
+// RODAPÉ
+// ======================================================
+
+$footer-bg: #1a1a1a;            // Fundo do rodapé (escuro)
+$footer-color: #ccc;            // Texto do rodapé (cinza claro)
+$footer-link-color: #00884d;    // Links do rodapé (verde)
+$footer-link-hover-color: #fe8905; // Links do rodapé ao passar o mouse (laranja)
+$footer-border-color: #fe8905;  // Borda superior do rodapé (laranja)
+
+// ======================================================
+// BOTÕES
+// ======================================================
+
+$btn-primary-bg: #00884d;        // Fundo do botão principal (verde)
+$btn-primary-border: #00884d;    // Borda do botão principal (verde)
+$btn-primary-hover-bg: #fe8905;  // Fundo do botão ao passar o mouse (laranja)
+$btn-primary-hover-border: #fe8905; // Borda do botão ao passar o mouse (laranja)
+
+// ======================================================
+// BREADCRUMBS (MIOLO DE NAVEGAÇÃO)
+// ======================================================
+
+$ds-breadcrumb-link-color: #00884d;       // Links do breadcrumb (verde)
+$ds-breadcrumb-link-active-color: #333;   // Texto ativo do breadcrumb (preto)
+
+// ======================================================
+// OUTROS ELEMENTOS
+// ======================================================
+
+$ds-home-news-link-color: #00884d;        // Links da home (verde)
+$ds-header-navbar-border-bottom-color: #fe8905; // Borda inferior do cabeçalho (laranja)
+
+$table-accent-bg: #f8f9fa;
+$table-hover-bg: #ced4da;
+
+// ======================================================
+// FUNDO DA PÁGINA
+// ======================================================
+
+$body-bg: #f4f4f4;               // Fundo geral da página (cinza claro)
