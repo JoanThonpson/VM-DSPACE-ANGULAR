@@ -64,9 +64,9 @@ $min-contrast-ratio: 2.06 !default;
 
 $body-color: #343a40;       // As Bootstrap $gray-800
 
-//$link-color: #fff;          // Blue green, as DSpace $info
+$link-color: #fff;          // Blue green, as DSpace $info
 $link-decoration: none;
-$link-color-home: #fff;       
+$link-color-home: #00884d;  // Blue green, as DSpace $info
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
 
@@ -114,7 +114,7 @@ $dark:      #1a1a1a;   // Escuro para rodapé
 // ======================================================
 
 $body-color: #333;                // Texto principal (preto/cinza escuro)
-$link-color: #ffff;             // Links em verde
+//$link-color: #ffff;             // Links em verde
 $link-hover-color: #fe8905;       // Links em laranja ao passar o mouse
 
 // ======================================================
