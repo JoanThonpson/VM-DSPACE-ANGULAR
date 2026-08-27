@@ -21,3 +21,20 @@
     font-size: 1.1rem
   }
 }
+
+
+// ============================================
+// PERSONALIZAÇÃO DO CAMPO DE BUSCA
+// ============================================
+
+.form-control {
+   border: 2px solid #8b8787 !important;   /* Borda verde */
+  //border-width: 30px !important;          /* Borda arredondada */
+   background-color: #b8b5b5 !important;    /* Fundo branco */
+}
+
+// Se o campo de busca usar outra classe, você pode adicionar:
+.search-input {
+    border: 2px solid #00884d !important;
+    border-radius: 30px !important;
+}

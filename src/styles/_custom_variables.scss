@@ -94,8 +94,8 @@
   --ds-notification-bg-warning: #{darken(adjust-hue($warning, -10), 10%)};
 
   --ds-top-footer-bg: #{$gray-200};
-    --ds-footer-bg: #{$primary};
-  --ds-footer-border: 1px solid var(--bs-gray-400);
+  --ds-footer-bg: #{$primary};
+  --ds-footer-border: 5px solid #fe8905;
   --ds-footer-padding: 0;
   --ds-footer-padding-bottom: 0;
   --ds-footer-logo-height: 50px;

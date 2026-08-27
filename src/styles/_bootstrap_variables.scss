@@ -35,7 +35,7 @@ $enable-shadows: true !default;
 $primary:   #2b4e72 !default;               // Blue gray
 $secondary: #495057 !default;               // As Bootstrap $gray-700
 $success:   #94ba65 !default;               // Lime
-$info:      #006666 !default;               // Blue green
+$info:      #00884d !default;               // Verde Pio Décimo (links do conteúdo)
 $warning:   #ec9433 !default;               // Orange
 $danger:    #cf4444 !default;               // Red
 $light:     #f8f9fa !default;               // As Bootstrap $gray-100
@@ -85,13 +85,13 @@ $ds-header-navbar-border-top-color: #fff !default;
 $ds-header-navbar-border-bottom-color: #ced4da !default;
 
 $ds-header-bg: #00884d !default;
-$ds-header-icon-color: $link-color !default;
+$ds-header-icon-color: #fff !default;
 $ds-header-icon-color-hover: $link-hover-color !default;
 
 $ds-navbar-bg: #fff !default;
 $ds-navbar-dropdown-bg: #00884d !default;
 $ds-expandable-navbar-bg: #fff !default;
-$ds-navbar-link-color: $link-color !default;
+$ds-navbar-link-color: #fff !default;
 $ds-navbar-link-color-hover: #{darken($ds-navbar-link-color, 15%)} !default;
 
 $ds-slider-color: darken(#94BA65, 17%) !default;
